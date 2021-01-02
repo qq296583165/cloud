@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="StuduPlatform:war exploded">
+    <output-path>E:/TOMCAT/apache-tomcat-8.5.57/webapps/StuduPlatform_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="StuduPlatform" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="StuduPlatform/web/Web" />
+    </root>
+  </artifact>
+</component>
