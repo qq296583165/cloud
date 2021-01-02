@@ -37,9 +37,8 @@ public class AllFilter implements Filter {
 		// place your code here
 
 		// pass the request along the filter chain
-//		response.setContentType("text/html;charset=UTF-8");
-		request.setCharacterEncoding("utf-8");
 		response.setContentType("text/html;charset=UTF-8");
+		request.setCharacterEncoding("utf-8");
 		chain.doFilter(request, response);
 	}
 
